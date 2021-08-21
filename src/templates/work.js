@@ -42,6 +42,7 @@ export const query = graphql`
       }
       title
       excerpt
+      number
       gallery {
         fluid(maxWidth: 200, imgixParams: { fm: "jpg", auto: "compress" }) {
           src
